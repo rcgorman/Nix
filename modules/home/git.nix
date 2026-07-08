@@ -4,7 +4,7 @@
 
     settings = {
       user.name = "Ryan";
-      # user.email = "you@example.com";
+      user.email = "ryan@gormantech.com";
 
       init.defaultBranch = "main";
       merge.conflictstyle = "zdiff3";
