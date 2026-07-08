@@ -24,6 +24,7 @@ The `rebuild` shell alias is host-aware because it uses the `flakeHost` passed i
 
 flake.nix is the top-level assembly layer. It defines the inputs, creates a mkDarwinHost function, and uses that to build named systems.
 The function wires together:
+
 host-specific system config from hosts/<name>/default.nix
 host-specific Home Manager entrypoint from hosts/<name>/home.nix
 shared Darwin/Home Manager infrastructure like nix-homebrew and Home Manager integration
